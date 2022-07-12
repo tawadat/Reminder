@@ -6,8 +6,8 @@ public class Controller {
     static final String PATH = "C:\\Users\\R\\Reminder\\src\\main\\resources\\Bd.txt";
 
     public static void main(String[] args) {
-        String appendEvent = "123423";
-     // write();
+        String appendEvent = "123423"+"\n";
+     //write();
 
       eventAdd(PATH, appendEvent);
       read();
